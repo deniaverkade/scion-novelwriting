@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Geheime info
+.env
+
+# OS bestanden
+.DS_Store
+Thumbs.db
+
+# Editor bestanden
+.vscode/
+.idea/
+
+#db naam: scion_admin db ww: wAG3HjFVdYhsdZrs (ADMIN)
+
+#db naam: scion_user db ww: 7tQqmgBmn0kOji1l (USER)

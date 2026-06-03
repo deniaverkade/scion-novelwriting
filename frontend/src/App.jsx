@@ -6,21 +6,22 @@ import './App.css'
 //import { useEditor, EditorContent } from '@tiptap/react'
 //import { FloatingMenu, BubbleMenu } from '@tiptap/react/menus'
 //import StarterKit from '@tiptap/starter-kit'
+import TextEditor from './Pages/TextEditor';
 
 
 function App() {
 
-   useEffect(() => {
-    fetch('http://localhost:4000/api/workouts')
-      .then(res => res.json())
-      .then(data => console.log('Data van backend:', data))
-      .catch(err => console.error('Geen verbinding:', err));
-  }, []);
+   //useEffect(() => {
+    //fetch('http://localhost:4000/api/workouts')
+     // .then(res => res.json())
+      //.then(data => console.log('Data van backend:', data))
+     // .catch(err => console.error('Geen verbinding:', err));
+ // }, []);
 
 
   return (
     <>
-
+  <TextEditor/>
     </>
   )
 }

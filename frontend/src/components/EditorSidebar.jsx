@@ -1,24 +1,13 @@
+// EditorSidebar.jsx
+
 const EditorSidebar = () => {
     return (
-        <section className="bg-[#A9B1C3] absolute h-[87.3%] w-140 mt-30">
+        <section className="bg-[#A9B1C3] h-full w-[150%] mt-10">
 
-            {/*Document naam */}
-
-            <div className="bg-[#45454F] w-140 h-10">
-
+            <div className="bg-[#45454F] text-white h-10  ">
+                Documentnaam
             </div>
 
-            {/* Hoofdstukken */}
-
-            <div>
-
-            </div>
-
-            {/* Notities */}
-
-            <div>
-
-            </div>
 
         </section>
     );

@@ -1,4 +1,3 @@
-// EditorTopBar.jsx
 
 const EditorTopBar = ({ editor }) => {
     if (!editor) return null;
@@ -44,7 +43,7 @@ const EditorTopBar = ({ editor }) => {
                     }
                     className="px-2 py-1 hover:bg-gray-300"
                 >
-                    • List
+                    • ---
                 </button>
 
             </div>

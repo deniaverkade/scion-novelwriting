@@ -1,4 +1,4 @@
-// EditorSidebar.jsx
+
 
 const EditorSidebar = () => {
     return (
